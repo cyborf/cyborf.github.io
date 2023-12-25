@@ -2,14 +2,14 @@
 
 @font-face {
     font-family: Retrogression;
-    src: url("../cyborf.github.io/Retrogression-Regular.ttf") format('truetype');
+    src: url("../cyborf.github.io/Retrogression/Retrogression-Regular.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: Hellovetica;
-    src: url("../cyborf.github.io/hellovetica.ttf") format("truetype");
+    src: url("../cyborf.github.io/Hellovetica/hellovetica.ttf") format("truetype");
     font-weight:normal;
     font-style: normal;
 }
