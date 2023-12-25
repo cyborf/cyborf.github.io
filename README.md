@@ -1,7 +1,3 @@
-# Welcome to My Personal Github Page
+# Personal Github Page! - cyborf
 
-This is My personal Github Page!
-
-Last edited: April 27
-
-### Features:
+Font is Retrogression-Regular found [here] (https://fontesk.com/retrogression-font/#google_vignette 'Fontesk')>
