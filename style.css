@@ -26,11 +26,11 @@
 }
 
 div {
-    font-family: Retrogression, Normal;
+    font-family: Apple, Normal;
 }
 
 #header h1{
-    font-family: , Normal;
+    font-family: Retrogression, Normal;
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
@@ -200,9 +200,12 @@ div {
   }
 
   #about p {
-    font-family: Hellovetica, Normal;
+    font-family: Apple, Normal;
     font-size: 80%;
     margin-left: 25%;
     margin-right: 25%;
+    letter-spacing: -0.13em;
+    line-height: 140%;
+    
     
   }
