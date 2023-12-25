@@ -17,7 +17,7 @@
 
 
 @font-face {
-    font-family:"Hellovetica";
+    font-family: Hellovetica;
     src: url("../cyborf.github.io/Hellovetica/hellovetica.eot") format("opentype");
     src: url("../cyborf.github.io/Hellovetica/hellovetica.woff") format("woff");
     src: url("../cyborf.github.io/Hellovetica/hellovetica.ttf") format("truetype");
@@ -26,11 +26,11 @@
 }
 
 div {
-    font-family: Apple, Normal;
+    font-family: Retrogression, Normal;
 }
 
 #header h1{
-    font-family: Retrogression, Normal;
+    font-family: , Normal;
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
