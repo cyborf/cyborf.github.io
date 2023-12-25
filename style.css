@@ -8,12 +8,16 @@
 }
 
 
+
 @font-face {
-    font-family: Hellovetica;
-    src: url("../cyborf.github.io/Hellovetica/hellovetica.ttf") format('truetype');
-    font-weight: normal;
-    font-style: normal;
+    font-family:"Hellovetica";
+    src:url("hellovetica.eot?") format("eot");
+    src: url("hellovetica.woff") format("woff");
+    src: url("hellovetica.ttf") format("truetype");
+    src: url("hellovetica.svg#HelloveticaReg") format("svg");
+    font-weight:normal;font-style:normal;
 }
+
 
 div {
     font-family: Hellovetica, Normal;
