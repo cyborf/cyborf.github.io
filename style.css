@@ -223,6 +223,20 @@ div {
     margin-right: 25%;
     letter-spacing: -0.13em;
     line-height: 140%;
-    
-    
+  }
+
+  #research {
+    font-family: apple_regular, Normal;
+    margin-left: 25%;
+    margin-right: 25%;
+    letter-spacing: -0.13em;
+    line-height: 140%
+  }
+
+  #research h2 {
+    font-size: 90%;
+  }
+
+  #research p {
+    font-size: 80%;
   }
