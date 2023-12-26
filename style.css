@@ -1,36 +1,53 @@
 
+@font-face {
+    font-family: 'retrogressionregular';
+    src: url('../cyborf.github.io/fonts/retrogression-regular-webfont.woff2') format('woff2'),
+         url('../cyborf.github.io/fonts/retrogression-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 @font-face {
+    font-family: 'apple_regular';
+    src: url('../cyborf.github.io/fonts/apple-webfont.woff2') format('woff2'),
+         url('../cyborf.github.io/fonts/apple-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* @font-face {
     font-family: Retrogression;
     src: url("../cyborf.github.io/Retrogression/Retrogression-Regular.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: Apple;
     src: url("../cyborf.github.io/Apple.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
-}
+} */
 
 
 
-@font-face {
+/* @font-face {
     font-family: Hellovetica;
     src: url("../cyborf.github.io/Hellovetica/hellovetica.eot") format("opentype");
     src: url("../cyborf.github.io/Hellovetica/hellovetica.woff") format("woff");
     src: url("../cyborf.github.io/Hellovetica/hellovetica.ttf") format("truetype");
     font-weight:normal;
     font-style:normal;
-}
+} */
 
 div {
-    font-family: Apple, Normal;
+    font-family: apple_regular, Normal;
 }
 
 #header h1{
-    font-family: Retrogression, Normal;
+    font-family: retrogressionregular, Normal;
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
@@ -132,7 +149,7 @@ div {
   }
   
   .pixel p {
-    font-family: Retrogression, Normal;
+    font-family: retrogressionregular, Normal;
     display: inline-block;
     vertical-align: top;
     position: relative;
@@ -158,7 +175,7 @@ div {
   }
   
   .pixel2 {
-    font-family: Retrogression, Normal;
+    font-family: retroregressionregular, Normal;
     position: relative;
     display: block;
     margin: 10px;
@@ -200,7 +217,7 @@ div {
   }
 
   #about p {
-    font-family: Apple, Normal;
+    font-family: apple_regular, Normal;
     font-size: 80%;
     margin-left: 25%;
     margin-right: 25%;
