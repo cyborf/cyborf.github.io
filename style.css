@@ -17,6 +17,16 @@
 
 }
 
+@font-face {
+    font-family: 'helloveticaregular';
+    src: url('../cyborf.github.io/fonts/hellovetica-webfont.woff2') format('woff2'),
+         url('../cyborf.github.io/fonts/apple-webfont.woff') format('woff'),
+         url('../cyborf.github.io/fonts/hellovetica.ttf'), format(truetype);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /* @font-face {
     font-family: Retrogression;
     src: url("../cyborf.github.io/Retrogression/Retrogression-Regular.ttf") format('truetype');
@@ -43,7 +53,7 @@
 } */
 
 div {
-    font-family: apple_regular, Normal;
+    font-family: helloveticaregular, Normal;
 }
 
 #header h1{
@@ -217,20 +227,25 @@ div {
   }
 
   #about p {
-    font-family: apple_regular, Normal;
+    font-family: helloveticaregular, Normal;
     font-size: 80%;
     margin-left: 25%;
     margin-right: 25%;
-    letter-spacing: -0.13em;
-    line-height: 140%;
+    /* letter-spacing: 0.1em;
+    line-height: 150%;
+    word-spacing: 110%; */
+    /* letter-spacing: -0.13em;
+    line-height: 140%; */
   }
 
   #research {
-    font-family: apple_regular, Normal;
+    font-family: helloveticaregular, Normal;
     margin-left: 25%;
     margin-right: 25%;
-    letter-spacing: -0.13em;
-    line-height: 140%
+
+
+    /* letter-spacing: -0.13em;
+    line-height: 140% */
   }
 
   #research h2 {
