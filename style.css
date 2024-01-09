@@ -1,59 +1,15 @@
 
-@font-face {
-    font-family: 'retrogressionregular';
-    src: url('../cyborf.github.io/fonts/retrogression-regular-webfont.woff2') format('woff2'),
-         url('../cyborf.github.io/fonts/retrogression-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+html {
+  scroll-behavior: smooth;
 }
 
-@font-face {
-    font-family: 'apple_regular';
-    src: url('../cyborf.github.io/fonts/apple-webfont.woff2') format('woff2'),
-         url('../cyborf.github.io/fonts/apple-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+a {
+  color:white;
 }
-
-@font-face {
-    font-family: 'helloveticaregular';
-    src: url('../cyborf.github.io/fonts/hellovetica-webfont.woff2') format('woff2'),
-         url('../cyborf.github.io/fonts/apple-webfont.woff') format('woff'),
-         url('../cyborf.github.io/fonts/hellovetica.ttf'), format(truetype);
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-/* @font-face {
-    font-family: Retrogression;
-    src: url("../cyborf.github.io/Retrogression/Retrogression-Regular.ttf") format('truetype');
-    font-weight: normal;
-    font-style: normal;
-} */
-
-/* @font-face {
-    font-family: Apple;
-    src: url("../cyborf.github.io/Apple.ttf") format('truetype');
-    font-weight: normal;
-    font-style: normal;
-} */
-
-
-
-/* @font-face {
-    font-family: Hellovetica;
-    src: url("../cyborf.github.io/Hellovetica/hellovetica.eot") format("opentype");
-    src: url("../cyborf.github.io/Hellovetica/hellovetica.woff") format("woff");
-    src: url("../cyborf.github.io/Hellovetica/hellovetica.ttf") format("truetype");
-    font-weight:normal;
-    font-style:normal;
-} */
 
 div {
   font-family: 'Roboto Mono', monospace;
+  font-size: 120%;
 }
 
 #header h1{
@@ -63,15 +19,20 @@ div {
     margin-right: auto;
     margin-bottom: 0%;
     margin-top: 3%;
-    font-size: 500%;
+    font-size: 200%;
 }
 
 #header h2 {
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    font-size: 90%;
+    font-size: 70%;
     margin-bottom: 0%;
+}
+
+.typewriter {
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
 
 .typewriter h1 {
@@ -103,15 +64,16 @@ div {
     50% { border-color: black }
   }
 
-  /* Button as a header: */
+  /* Pixel Button */
   .container {
-    margin: 50px;
+    font-size: 90%;
     display: block;
-    width: 400px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    margin-top: 5%;
+    max-width: fit-content;
     text-transform: lowercase;
+    white-space: nowrap;
   }
   
   .pixel, .pixel2 {
@@ -252,32 +214,22 @@ div {
     z-index: 2;
   }
 
-  #about p {
+  /*Content*/
+
+
+
+  p {
     font-family: 'Roboto Mono', monospace;
-    font-size: 80%;
-    margin-left: 25%;
-    margin-right: 25%;
-    /* letter-spacing: 0.1em;
-    line-height: 150%;
-    word-spacing: 110%; */
-    /* letter-spacing: -0.13em;
-    line-height: 140%; */
+    font-size: 70%;
+    margin-left: 18%;
+    margin-right: 18%;
   }
 
-  #research {
-    font-family: 'Roboto Mono', monospace;
-    margin-left: 25%;
-    margin-right: 25%;
-
-
-    /* letter-spacing: -0.13em;
-    line-height: 140% */
-  }
-
-  #research h2 {
+  h1 {
+    margin-top: 5%;
+    font-family: 'Press Start 2P', system-ui;
     font-size: 90%;
+    margin-left: 15%;
+    margin-right: 15%;
   }
 
-  #research p {
-    font-size: 80%;
-  }
