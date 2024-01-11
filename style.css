@@ -216,8 +216,6 @@ div {
 
   /*Content*/
 
-
-
   p {
     font-family: 'Roboto Mono', monospace;
     font-size: 70%;
@@ -232,4 +230,35 @@ div {
     margin-left: 15%;
     margin-right: 15%;
   }
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+    margin-left: 18%;
+    margin-right: 18%;
+  }
+
+  .card {
+    border: 1px #000000;
+    max-width: 33%;
+    margin: fit-content;
+    text-align: center;
+    box-sizing: border-box;
+
+    font-family: 'Roboto Mono', monospace;
+    font-size: 70%;
+  }
+  
+  .card h1 {
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  .card a {
+    color : #000000;
+  }
+
+  
 
