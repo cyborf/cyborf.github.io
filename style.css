@@ -30,6 +30,15 @@ div {
     margin-bottom: 0%;
 }
 
+h3 {
+  
+  font-family: 'Press Start 2P', system-ui;
+  font-size: 60%;
+  margin-left: 18%;
+  margin-right: 18%;
+  
+}
+
 .typewriter {
   margin-bottom: 5%;
   margin-top: 5%;
